@@ -45,3 +45,28 @@ shiro深入学习。
 完成
 
 <!--step 4 数据库设计，业务逻辑解析，restful商定-->
+
+2016/11/24	JAVA反射机制,泛型工具类编写，内存泄露的学习。数通知识点学习。交换机、路由器vrrp双备和负载策略和eudemon防火墙的配置和实验。迭代二代码学习。	完成
+2016/11/25	数通知识交换机、路由器vrrp双备和负载策略和eudemon防火墙的配置和实验的复习。Java虚拟机机制和Java二进制字节码的学习。Mongodb概念学习。迭代二代码学习	shiro完成理念和设计模式的理解，Java虚拟机机制和字节码解析了解基本概念。
+2016/11/28	数通知识交换机，路由器配置互动，模拟组网vlan，实现二三层交互机的不同通信，路由器进行多网段的转发。Shiro的深入学习，配置文件和spring框架的整合。Mongodb数据库理论学习。	shiro配置文件学习，shiro整合spring，数据通信路由器，交互机，VLAN配置互通。
+2016/11/29	数通知识交换机冗余原理，stp，mstp协议的配置。交换机在多VLAN组网情况下使用mstp实现负载。Java多线程的理念学习，shiro整合以及用户身份登录验证。Mongodb复习。	完成
+2016/11/30	数通知识防火墙，双机热备的使用场景，五元组。Ssm整合shiro跑通user identify demo。Mongodb继续深入，切片和集群的处理方式。	mongodb欠缺
+2016/12/1	数通知识nat在路由器防火墙的转发策略。Shiro的深入学习。Java多线程以及akka。	完成，速度要加快。
+2016/12/2	数通知识路由协议详解。Java多线程深入学习。Akka概念理解。	完成
+2016/12/5	数通知识路由协议详解。Java虚拟机指令的意义以及内部的工作原理，Java内存中公有堆栈和私有堆栈的问题。Concurrency。Java注解新特性详解。/register/form /login。Maven配置细则。	完成
+2016/12/6	数通知识路由协议详解。Sdn概念深入了解。Odl框架详细概念了解。Neevpn_v8白盒修改。Ifprovider白盒修改。Netvxlan白盒修改。Nevxlan llt的项目搭建。	完成
+2016/12/7	Nevxlan llt开始编写。Netevpn llt的修改提高覆盖率。	完成
+2016/12/8	Nevxlan llt编写覆盖率达标。Netevpn llt的修改提高覆盖率。	完成
+2016/12/9	Netevpn llt修改覆盖率达标。	完成
+2016/12/10	Netevpn findbugs修改清零，netevpn codedex修改	完成
+2016/12/12	Netevpn findbugs代码整改后出现新问题清零，netevpn codedex修改清零	完成
+2016/12/13	netvxlan , neevpn_v8高等级findbugs修改清零.codedex修改	完成
+2016/12/14	netevpn白盒修改清零，netevpn llt新代码整改	完成
+2016/12/15	neevpn 高等级findbugs修改，ifprovider llt修改，netevpn，maven依赖树的分析，解决包冲突的问题。	完成
+2016/12/16	netevpn nev8-neevpn netvaxlan findbugs修改。所有组件llt编译改错，提交覆盖率报告。	完成
+2016/12/17	netevpn ifprovider 白盒修改	完成
+2016/12/19	七个模块findbugs清零，七个模块llt覆盖率本地统计，netevpn llt修改	完成
+2016/12/20	nev8-neevpn llt定位错位，netevpn覆盖率提升	完成
+2016/12/21	分仓后的问题定位和解决。SQL语句大全学习。安全考试学习	完成
+2016/12/22	数通知识学习。SQL语句大全学习。Java jvm学习。安全考试学习	完成
+
