@@ -1,3 +1,43 @@
+CREATE TABLE IF NOT EXISTS TSSA_ZPUT351(
+    MANDT STRING,--客户端
+    ZDEBILLDATE STRING,--账单日期
+    ZDELINEITEM STRING,--本期行项目数
+    ZDEDEBIT STRING,--本期借方库存数量
+    ZDECREDIT STRING,--本期贷方库存数量
+    ZDEETLDATE STRING,--ETL日期
+    ZDEXCBS3 STRING,--下传标志
+    ZWRITE_DATE STRING,--写表日期
+    ZWRITE_TIME STRING--写表时间
+) PARTITIONED BY (STATIS_DATE STRING) stored as textfile;
+ALTER TABLE TSSA_ZPUT351 DROP PARTITION(statis_date='${statis_date}')
+
+CREATE TABLE IF NOT EXISTS TSSA_ZPUT352(
+    MANDT STRING,--客户端
+    MBLNR STRING,--商品凭证编码
+    MJAHR STRING,--商品凭证年度
+    MBLPO STRING,--商品凭证中的项目
+    ZDEOSID STRING,--库存对账流水号
+    BUDAT STRING,--凭证中的记帐日期
+    CPUDT STRING,--会计凭证输入日期 
+    SHKZG STRING,--借方/贷方标识
+    MENGE_D STRING,--数量
+    MATNR STRING,--商品号
+    ELIFN STRING,--供应商帐户号
+    ZDELJWRK STRING,--逻辑地点
+    ZDELJLGO STRING,--逻辑库位
+    ZDEWLWRK STRING,--物理地点
+    ZDEWLLGO STRING,--物理库位
+    BUKRS STRING,--公司代码
+    ZDESID STRING,--系统标识
+    ZDEETLDATE STRING,--ETL日期
+    ZDEXCBS3 STRING,--下传标识
+    ZWRITE_DATE STRING,--写表日期
+    ZWRITE_TIME STRING--写表时间
+) PARTITIONED BY (STATIS_DATE STRING) stored as textfile;
+ALTER TABLE TSSA_ZPUT352 DROP PARTITION(statis_date='${statis_date}')
+
+
+
 表名ZPUT351：库存账单抬头表					
 字段名	数据元素	数据类型	长度	小数位	短文本
 MANDT	MANDT	CLNT	3	0	客户端
