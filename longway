@@ -1,3 +1,4 @@
+！--mysql 装完，表写完，项目pom建成--！
 CREATE TABLE IF NOT EXISTS TSSA_ZPUT351(
     MANDT STRING,--客户端
     ZDEBILLDATE STRING,--账单日期
