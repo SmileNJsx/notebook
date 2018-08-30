@@ -10,3 +10,7 @@
 4. JLS
 
 5. hessian kryo
+
+6. 自己制作一个maven插件
+
+7. Gradle使用。。。
